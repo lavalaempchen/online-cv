@@ -1,8 +1,8 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: CV / Thies Mueller
-url: 'https://cv.thiesmueller.de'
+title: CV / Frej Schradick
+url: 'https://cv.frej.xyz'
 baseurl: '/' #change it according to your repository name
 description: My online CV
 # Style will be applied only after restarting the build or serve. Just choose one of the options.

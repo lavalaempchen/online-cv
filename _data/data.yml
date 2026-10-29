@@ -8,16 +8,15 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Thies Müller
-    tagline: Senior Network & Infrastructure Engineer
+    name: Frej Pebble Schradick
+    tagline: Quality Assurance
     avatar: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: mail@thiesmueller.de
-    phone: +49 152 2748 9913
-    website: thies.xyz #do not add http://
-    linkedin: thiesmueller
-    github: thies23
+    email: frej@schradick.de
+    website: lavalaempchen.de #do not add http://
+    linkedin: frej-schradick-49b545181
+    github: lavalaempchen
     timezone: Europe/Berlin
     citizenship: German
     
@@ -27,9 +26,6 @@ sidebar:
 
       - idiom: English
         level: Professional
-       
-      - idiom: French
-        level: Basic
 
     interests:
       - item: Jugend hackt
@@ -40,194 +36,143 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      Experienced Network Engineer with a history of working for an ISP & IXP, deploying highly reliable network solutions on a large scale.
+      Masters Student at a renowned German university, studying software testing, engineering and machine learning algorithms
 education:
-    - degree: "IHK geprüfter Fachinformatiker für Systemintegration"
-      university: BBS2 Wolfsburg
-      time: 2014 - 2017
+    - degree: "M. Sc. Informatik"
+      university: HAW Hamburg
+      time: 2022 - current
       details: |
-
-    - degree: "Erweiterter Realschulabschluss"
-      university: Oberschule Calberlah
-      time: 2012 - 2014
-      details: |
-      
-experiences:
-    - role: Senior Network & Infrastructure Engineer
-      time: 2024 - current
-      company: WIIT AG
-      details: |
-        The previous company was bought by WIIT AG.
-        Additionally:
-        - Creating training courses & materials for colleagues
-        - Maintaining an IPv6 mostly management infrastructure and combining the different networks of the former companies
-        - Interims Teamlead Network Operations
-        - BSI IT-Grundschutz Certification
-        - BSI KRITIS Certification
-        - ISO 27001 Certification
         
-      
-    - role: Senior Network & Infrastructure Engineer
-      time: 2021 - 2024
-      company: German Edge Cloud GmbH & Co. KG
+    - degree: "B. Sc. Technische Informatik"
+      university: HAW Hamburg
+      time: 2017 - 2022
       details: |
-        - Responsible for Firewalling & Network Security
-        - Responsible for our Infrastructure Management based on ansible
-        - Maintaining the MPLS ring's betweens our datacenters
-        - Consulting for other Teams in regards to questions about networking, (network) security & IPv6
-        - Working as a technical expert during incidents as part of the companies incident response team as well as participating in the on-call schedule to satisfy our customers needs in highly reliable systems
-        - Developing & maintaining specialised solutions based on customer needs. 
-    
-    - role: Self Employed
-      time: 2020 - present
-      company: Thies Mueller Service Solutions
+        Thema: "Untersuchung der Auswirkung von Skalierung vor dem SoftMax-Layer auf die Robustheit eines Neuronalen Netzes"
+        Note: 2.09
+    - degree: "Abitur"
+      university: Gymnasium Trittau
+      time: 2009 - 2017
       details: |
-        - Supporting the IT needs for small & medium NGOs
-        - Creating specialised tools
-        - Consulting on network and network security needs
-        - Planning and operating event networks & infrastructure
-      
+        Schnitt: 1.9
 
-    - role: Network Engineer
-      time: 2019 - 2021
-      company: WOBCOM GmbH, Wolfsburg
+experiences:        
+    - role: Lehrauftrag
+      time: 2026 - current
+      company: HAW Hamburg
       details: |
-        - Performing troubleshooting for Juniper-, Cisco-, and Fortinet Appliances to ensure a reliable network for our customers
-        - Managing Firewalls and VPN Systems, keeping up the high security demands for our customers, as well as our internal systems
-        - Working as a technical expert during incidents as part of the companies incident response team as well as participating in the on-call schedule to satisfy our customers needs in highly reliable systems
-        - Managed the web servers, hosting company owned and customer websites with Plesk, nginx and apache2
-    - role: System & Network Administration
-      time: 2017 - 2018
-      company: Volke Kommunikations-Design GmbH, Wolfsburg
+        - Abnahme des für die Praktika entwickelten Codes & Prüfung der Klausur Eignung
+        - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
+        - Korrektur des für die Praktika entwickelten Codes
+        - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
+    - role: Lehrassistenz, Werksstudent
+      time: 2025 - 2026
+      company: HAW Hamburg
       details: |
-        - Deployed and managed the corporates antivirus and security solution, including the whole corporates technical systems, resulting in an increased overall security for the company
-        - Designed, planned, deployed, and leading the implementation project of the new company network infrastructure, incorporating Juniper products, including routers, switches, and firewalls, consolidating a highly heterogeneous network into a much easier to manage setup, resulting in a increased system reliability and security
-        - Management of the servers, vmhosts, and virtual machines for the hosting of the web applications provided to customers, as well as internal services using state of the art technology like nginx
-    - role: Trainee "Fachinformatiker Systemintegration"
-      time: 2014 - 2017
-      company: Volke Kommunikations-Design GmbH, Wolfsburg
+        - Abnahme des für die Praktika entwickelten Codes
+        - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
+        - Korrektur des für die Praktika entwickelten Codes
+        - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
+    - role: Entwicklung
+      time: 2024 - current
+      company: Thies Mueller Service Solutions / RegattaTech.DE
       details: |
-        - Learned about security services by working in multiple implementation projects for security services, like fortigate and sophos firewalls
-        - Learned about network and server side automation to automatically deploy new and maintain existing applications inside the company as well as customer applications
-        - Deployed a new asset management solution to effectively keeping track of the companies assets across the workplaces and inside the datacenter
-        - Managed the Windows 7 environment inside the company
-        - Worked in the IT-HelpDesk for the internal staff to ensure smooth day-to-day operations of the company
+        - Entwickeln eines Systems zur Ergebniserfassung, Verarbeitung und Darstellung
+    - role: Quality Assurance, Werksstudent
+      time: 2023 - 2024
+      company: PCG Germany
+      details: |
+        - Erstellung, Durchführung & Dokumentation von automatisierten Tests
+        - Anleitung der anderen Werksstudierenden
+    - role: Software Testing, Werksstudent
+      time: 2022 - 2023
+      company: LECARE
+      details: |
+        - Manuelles & Blackbox Testen der Anwendung
+        - Entwickeln der allgemeinen Test Strategie
+    - role: Lab Lead
+      time: 2021 - 2022
+      company: Jugend hackt Lab Isenbüttel (Samtgemeinde Isenbüttel)
+      details: |
+        - Betreuung von ehrenamtlichen Mentor\*innen
+        - Planung, Konzeption und Durchführung von Workshops für Kinder & Jugendliche
+        - Betreuung des "Open Labs"
+        - Planung & Verwaltung der Ressourcen
 projects:
     title: Projects
     intro: >
-      These are some projects i've done in my past:
+      These are some projects I've done in my past:
     assignments:
-      - title: rC3
-        link: "https://infra.rc3.world"
-        tagline: "Technical Lead for the rC3 infrastructure Team & the rC3"
+      - title: Vorstand Lokaler Verein für Jugend hackt
+        link: "https://alpacabunt.de"
+        tagline: "Alpakas coden alles bunter e. V. (2024 - current)"
 
-      - title: Sport am Tankumsee
+      - title: Rennleitung, Bildproduktion, technische Betreuung
         link: "https://sport-am-tankumsee.de"
-        tagline: "Race Control, technical publications, streaming."
+        tagline: "Sport am Tankumsee / RegattaTech.DE (2024 - current)"
 
       - title: Event Logistics @ CCC Events
         link: "https://c3loc.de"
-        tagline: "At the on-premise events of the CCC I'm working in the internal logistics."
+        tagline: "CCC e. V. / CCCV GmbH (2019 - current)"
 
-      - title: Jugend hackt Infrastructure
+      - title: Mentoring auf Jugend hackt Events & Labs
         link: "https://jugendhackt.org"
-        tagline: "Together with others we build a system based on open source tools for Jugend hackt Events & Labs"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Jugend hackt (2021 - current)"
 
 publications:
-    title: Extra-Curricular Activities
+    title: Publications
     intro: |
      
     papers:
-      - title: "Event Logistics @ CCC Events"
-        link: "https://c3loc.de"
-        authors: Chaos Computer Club e.V. / Chaos Computer Club Veranstaltungs GmbH
-        conference: 2015 - present
-
-      - title: "Technical Project Lead @ rC3"
-        link: "https://rc3.world"
-        authors: Chaos Computer Club e.V. / Chaos Computer Club Veranstaltungs GmbH
-        conference: 2020 - 2022
-
-      - title: "Jugend hackt"
-        link: "https://jugendhackt.org"
-        authors: Jugend hackt (OKFN e. V. / mediale Pfade e. V.)
-        conference: 2021 - present
-
-      - title: "Vorstand Lokaler Verein für Jugend hackt"
-        link: "https://alpacabunt.de"
-        authors: "Alpakas coden alles bunter e. V."
-        conference: 2024 - present
+      - title: "Untersuchung der Auswirkung von Skalierung vor dem SoftMax-Layer auf die Robustheit eines Neuronalen Netzes"
+        link: "https://reposit.haw-hamburg.de/handle/20.500.12738/16136"
+        authors: Frej Pebble Schradick
+        conference: Bachelor Thesis
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Network Architect
-          
-      - name: Firewall
-          
-      - name: Juniper
-          
-      - name: Cisco
-          
-      - name: Palo Alto Networks
-        
-      - name: FortiNet
-        
-      - name: Sophos
-        
-      - name: NVIDIA / Mellanox
-        
-      - name: Linux
-        
-      - name: Mellanox Onyx
-        
-      - name: Cumulus Linux
+      - name: Quality Assurance
 
-      - name: VMware
-        
-      - name: Proxmox
-        
-      - name: nginx
-        
-      - name: frr
-        
-      - name: bird
-        
-      - name: PowerDNS
-        
-      - name: ansible
-        
+      - name: Manuelles & automatisiertes Testen
+
+      - name: Data Analysis
+
+      - name: Software Engineering
+
+      - name: Requirements Engineering
+
       - name: git
-        
-      - name: IPv6
-        
-      - name: BGP
-        
-      - name: MPLS
-        
-      - name: EVPN
-        
-      - name: Vulnerability Management
-        
-      - name: Incident Management
+
+      - name: macOS
+
+      - name: Linux
+
+      - name: Windows
+
+      - name: Python
+
+      - name: Java
+
+      - name: C
+
+      - name: C++
+
+      - name: SQL
+
+      - name: Risk Analysis
+
+      - name: inkscape
+
+      - name: Affinity Designer
+
+      - name: Accessible WebDesign
+
+      - name: Adversary Testing
+
+      - name: Whitebox Testing
+
+      - name: Statische Code Analyse
       
         
 footer: >
