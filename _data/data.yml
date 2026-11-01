@@ -3,104 +3,144 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Frej Pebble Schradick
-    tagline: Quality Assurance
-    avatar: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Frej Pebble Schradick
+  tagline: Quality Assurance
+  avatar: me.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: frej@schradick.de
-    website: lavalaempchen.de #do not add http://
-    linkedin: frej-schradick-49b545181
-    github: lavalaempchen
-    timezone: Europe/Berlin
-    citizenship: German
-    
-    languages:
-      - idiom: German
-        level: Native
+  # Sidebar links
+  email: frej@schradick.de
+  timezone: Europe/Berlin # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: German
+  website: https://lavalaempchen.de/ # Include the full website URL, including "http://" or "https://".
+  linkedin: frej-schradick-49b545181
+  xing: Frej_Schradick
+  github: lavalaempchen
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky: 
+  twitter: 
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-      - idiom: English
-        level: Professional
+  languages:
+    title: Languages
+    info:
+    - idiom: German
+      level: Native
 
-    interests:
-      - item: Jugend hackt
-        link: https://jugendhackt.org
-      - item: Chaos Computer Club
-        link: https://ccc.de
-   
+    - idiom: English
+      level: Professional
+
+
+
+  interests:
+    title: Interests
+    info:
+    - item: Jugend hackt
+      link: https://jugendhackt.org
+
+
+    - item: Chaos Computer Club
+      link: https://ccc.de
+
+
+
+
+
 career-profile:
-    title: Profile
-    summary: |
-      Masters Student at a renowned German university, studying software testing, engineering and machine learning algorithms
-education:
-    - degree: "M. Sc. Informatik"
-      university: HAW Hamburg
-      time: 2022 - current
-      details: |
-        
-    - degree: "B. Sc. Technische Informatik"
-      university: HAW Hamburg
-      time: 2017 - 2022
-      details: |
-        Thema: "Untersuchung der Auswirkung von Skalierung vor dem SoftMax-Layer auf die Robustheit eines Neuronalen Netzes"
-        Note: 2.09
-    - degree: "Abitur"
-      university: Gymnasium Trittau
-      time: 2009 - 2017
-      details: |
-        Schnitt: 1.9
+  title: Profile
+  summary: |
+    Masters Student at a renowned German university, studying software testing, engineering and machine learning algorithms.
 
-experiences:        
-    - role: Lehrauftrag
-      time: 2026 - current
-      company: HAW Hamburg
-      details: |
-        - Abnahme des für die Praktika entwickelten Codes & Prüfung der Klausur Eignung
-        - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
-        - Korrektur des für die Praktika entwickelten Codes
-        - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
-    - role: Lehrassistenz, Werksstudent
-      time: 2025 - 2026
-      company: HAW Hamburg
-      details: |
-        - Abnahme des für die Praktika entwickelten Codes
-        - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
-        - Korrektur des für die Praktika entwickelten Codes
-        - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
-    - role: Entwicklung
-      time: 2024 - current
-      company: Thies Mueller Service Solutions / RegattaTech.DE
-      details: |
-        - Entwickeln eines Systems zur Ergebniserfassung, Verarbeitung und Darstellung
-    - role: Quality Assurance, Werksstudent
-      time: 2023 - 2024
-      company: PCG Germany
-      details: |
-        - Erstellung, Durchführung & Dokumentation von automatisierten Tests
-        - Anleitung der anderen Werksstudierenden
-    - role: Software Testing, Werksstudent
-      time: 2022 - 2023
-      company: LECARE
-      details: |
-        - Manuelles & Blackbox Testen der Anwendung
-        - Entwickeln der allgemeinen Test Strategie
-    - role: Lab Lead
-      time: 2021 - 2022
-      company: Jugend hackt Lab Isenbüttel (Samtgemeinde Isenbüttel)
-      details: |
-        - Betreuung von ehrenamtlichen Mentor\*innen
-        - Planung, Konzeption und Durchführung von Workshops für Kinder & Jugendliche
-        - Betreuung des "Open Labs"
-        - Planung & Verwaltung der Ressourcen
+education:
+  title: Education
+  info:
+  - degree: M. Sc. Informatik
+    university: HAW Hamburg
+    time: 2022 - current
+    details: |
+
+  - degree: B. Sc. Technische Informatik
+    university: HAW Hamburg
+    time: 2017 - 2022
+    details: |
+      Thema: "Untersuchung der Auswirkung von Skalierung vor dem SoftMax-Layer auf die Robustheit eines Neuronalen Netzes"
+      
+      Note: 2.09
+
+  - degree: Abitur
+    university: Gymnasium Trittau
+    time: 2009 - 2017
+    details: |
+      Schnitt: 1.9
+
+experiences:
+  title: Experiences
+  info:        
+  - role: Lehrauftrag
+    time: 2026 - current
+    company: HAW Hamburg
+    details: |
+      - Abnahme des für die Praktika entwickelten Codes & Prüfung der Klausur Eignung
+      - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
+      - Korrektur des für die Praktika entwickelten Codes
+      - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
+
+  - role: Lehrassistenz, Werksstudent
+    time: 2025 - 2026
+    company: HAW Hamburg
+    details: |
+      - Abnahme des für die Praktika entwickelten Codes
+      - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
+      - Korrektur des für die Praktika entwickelten Codes
+      - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
+
+  - role: Entwicklung
+    time: 2024 - current
+    company: Thies Mueller Service Solutions / RegattaTech.DE
+    details: |
+      - Entwickeln eines Systems zur Ergebniserfassung, Verarbeitung und Darstellung
+
+  - role: Quality Assurance, Werksstudent
+    time: 2023 - 2024
+    company: PCG Germany
+    details: |
+      - Erstellung, Durchführung & Dokumentation von automatisierten Tests
+      - Anleitung der anderen Werksstudierenden
+
+  - role: Software Testing, Werksstudent
+    time: 2022 - 2023
+    company: LECARE
+    details: |
+      - Manuelles & Blackbox Testen der Anwendung
+      - Entwickeln der allgemeinen Test Strategie
+
+  - role: Lab Lead
+    time: 2021 - 2022
+    company: Jugend hackt Lab Isenbüttel (Samtgemeinde Isenbüttel)
+    details: |
+      - Betreuung von ehrenamtlichen Mentoren
+      - Planung, Konzeption und Durchführung von Workshops für Kinder & Jugendliche
+      - Betreuung des "Open Labs"
+      - Planung & Verwaltung der Ressourcen
+
+
+
 projects:
-    title: Projects
+    title: Projekte
     intro: >
-      These are some projects I've done in my past:
+      An diesen Projekten beteilige ich mich:
     assignments:
       - title: Vorstand Lokaler Verein für Jugend hackt
         link: "https://alpacabunt.de"
@@ -121,12 +161,15 @@ projects:
 publications:
     title: Publications
     intro: |
+      Folgende Publikationen habe ich veröffentlicht
      
     papers:
       - title: "Untersuchung der Auswirkung von Skalierung vor dem SoftMax-Layer auf die Robustheit eines Neuronalen Netzes"
         link: "https://reposit.haw-hamburg.de/handle/20.500.12738/16136"
         authors: Frej Pebble Schradick
         conference: Bachelor Thesis
+
+
 
 skills:
     title: Skills &amp; Proficiency
@@ -173,7 +216,6 @@ skills:
       - name: Whitebox Testing
 
       - name: Statische Code Analyse
-      
-        
+
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

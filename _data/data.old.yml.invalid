@@ -1,0 +1,190 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Frej Pebble Schradick
+    tagline: Quality Assurance
+    avatar: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: frej@schradick.de
+    website: https://lavalaempchen.de #do not add http://
+    linkedin: frej-schradick-49b545181
+    github: lavalaempchen
+    mastodon: https://chaos.social/@lavalaempchen
+    timezone: Europe/Berlin
+    citizenship: German
+    
+    languages:
+      - idiom: German
+        level: Native
+      - idiom: English
+        level: Professional
+    interests:
+      - item: Jugend hackt
+        link: https://jugendhackt.org
+      - item: Chaos Computer Club
+        link: https://ccc.de
+  
+career-profile:
+    title: Profile
+    summary: |
+      Masters Student at a renowned German university, studying software testing, engineering and machine learning algorithms.
+
+  
+#education:
+#    - degree: M. Sc. Informatik
+#      university: HAW Hamburg
+#      time: 2022 - current
+#      details: |
+#
+#   - degree: B. Sc. Technische Informatik
+#      university: HAW Hamburg
+#      time: 2017 - 2022
+#      details: |
+#       Thema "Untersuchung der Auswirkung von Skalierung vor dem SoftMax-Layer auf die Robustheit eines Neuronalen Netzes"
+#        Note 2.09
+
+#    - degree: Abitur
+#      university: Gymnasium Trittau
+#      time: 2009 - 2017
+#      details: |
+#        Schnitt 1.9
+
+experiences:
+  title: Experiences
+  info:        
+  - role: Lehrauftrag
+    time: 2026 - current
+    company: HAW Hamburg
+    details: |
+      - Abnahme des für die Praktika entwickelten Codes & Prüfung der Klausur Eignung
+      - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
+      - Korrektur des für die Praktika entwickelten Codes
+      - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
+
+  - role: Lehrassistenz, Werksstudent
+    time: 2025 - 2026
+    company: HAW Hamburg
+    details: |
+      - Abnahme des für die Praktika entwickelten Codes
+      - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
+      - Korrektur des für die Praktika entwickelten Codes
+      - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
+
+  - role: Entwicklung
+    time: 2024 - current
+    company: Thies Mueller Service Solutions / RegattaTech.DE
+    details: |
+      - Entwickeln eines Systems zur Ergebniserfassung, Verarbeitung und Darstellung
+
+  - role: Quality Assurance, Werksstudent
+    time: 2023 - 2024
+    company: PCG Germany
+    details: |
+      - Erstellung, Durchführung & Dokumentation von automatisierten Tests
+      - Anleitung der anderen Werksstudierenden
+
+  - role: Software Testing, Werksstudent
+    time: 2022 - 2023
+    company: LECARE
+    details: |
+      - Manuelles & Blackbox Testen der Anwendung
+      - Entwickeln der allgemeinen Test Strategie
+
+  - role: Lab Lead
+    time: 2021 - 2022
+    company: Jugend hackt Lab Isenbüttel (Samtgemeinde Isenbüttel)
+    details: |
+      - Betreuung von ehrenamtlichen Mentoren
+      - Planung, Konzeption und Durchführung von Workshops für Kinder & Jugendliche
+      - Betreuung des "Open Labs"
+      - Planung & Verwaltung der Ressourcen
+
+projects:
+    title: Projekte
+    intro: >
+      An diesen Projekten beteilige ich mich:
+    assignments:
+      - title: Vorstand Lokaler Verein für Jugend hackt
+        link: "https://alpacabunt.de"
+        tagline: "Alpakas coden alles bunter e. V. (2024 - current)"
+
+      - title: Rennleitung, Bildproduktion, technische Betreuung
+        link: "https://sport-am-tankumsee.de"
+        tagline: "Sport am Tankumsee / RegattaTech.DE (2024 - current)"
+
+      - title: Event Logistics @ CCC Events
+        link: "https://c3loc.de"
+        tagline: "CCC e. V. / CCCV GmbH (2019 - current)"
+
+      - title: Mentoring auf Jugend hackt Events & Labs
+        link: "https://jugendhackt.org"
+        tagline: "Jugend hackt (2021 - current)"
+
+publications:
+    title: Publications
+    intro: |
+      Folgende Publikationen habe ich veröffentlicht
+     
+    papers:
+      - title: "Untersuchung der Auswirkung von Skalierung vor dem SoftMax-Layer auf die Robustheit eines Neuronalen Netzes"
+        link: "https://reposit.haw-hamburg.de/handle/20.500.12738/16136"
+        authors: Frej Pebble Schradick
+        conference: Bachelor Thesis
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Quality Assurance
+
+      - name: Manuelles & automatisiertes Testen
+
+      - name: Data Analysis
+
+      - name: Software Engineering
+
+      - name: Requirements Engineering
+
+      - name: git
+
+      - name: macOS
+
+      - name: Linux
+
+      - name: Windows
+
+      - name: Python
+
+      - name: Java
+
+      - name: C
+
+      - name: C++
+
+      - name: SQL
+
+      - name: Risk Analysis
+
+      - name: inkscape
+
+      - name: Affinity Designer
+
+      - name: Accessible WebDesign
+
+      - name: Adversary Testing
+
+      - name: Whitebox Testing
+
+      - name: Statische Code Analyse
+      
+        
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

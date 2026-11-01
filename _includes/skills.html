@@ -11,11 +11,11 @@
   <div class="skillset">
     {% for skill in skills.toolset %}
     <div class="item">
-      <h3 class="level-title">{{ skill.name }}</h3>
+      <ul class="level-title"><b>{{ skill.name }}</b></ul>
       {% assign skill_level = 'width: ' | append: skill.level %}
-      <div class="level-bar">
+      <!--<div class="level-bar">
         <div class="level-bar-inner" style="{{skill_level}}"></div>
-      </div>
+      </div>-->
       <!--//level-bar-->
     </div>
     <!--//item-->
