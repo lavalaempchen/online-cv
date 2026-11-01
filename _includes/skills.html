@@ -11,15 +11,21 @@
   <div class="skillset">
     {% for skill in skills.toolset %}
     <div class="item">
-      <ul class="level-title"><b>{{ skill.name }}</b></ul>
-      {% assign skill_level = 'width: ' | append: skill.level %}
-      <!--<div class="level-bar">
-        <div class="level-bar-inner" style="{{skill_level}}"></div>
-      </div>-->
-      <!--//level-bar-->
+      <ul class="job-title"><b>{{ skill.name }}</b></ul>
+      {% if skill.details %}
+    <div class="details">
+      {{ skill.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
     </div>
     <!--//item-->
     {% endfor %}
+
+
+
+
+
+    
   </div>
 </section>
 <!--//skills-section-->

@@ -34,18 +34,18 @@ sidebar:
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
-    title: Languages
+    title: Sprachen
     info:
     - idiom: German
-      level: Native
+      level: Muttersprache
 
     - idiom: English
-      level: Professional
+      level: Fließend
 
 
 
   interests:
-    title: Interests
+    title: Interessen
     info:
     - item: Jugend hackt
       link: https://jugendhackt.org
@@ -61,14 +61,14 @@ sidebar:
 career-profile:
   title: Profile
   summary: |
-    Masters Student at a renowned German university, studying software testing, engineering and machine learning algorithms.
+    Masterstudent an einer deutschen Universität mit den Studienschwerpunkten Softwaretests, Software-Engineering und Maschinlearning Algorithmen.
 
 education:
-  title: Education
+  title: Ausbildung
   info:
   - degree: M. Sc. Informatik
     university: HAW Hamburg
-    time: 2022 - current
+    time: 2022 - aktuell
     details: |
 
   - degree: B. Sc. Technische Informatik
@@ -86,28 +86,28 @@ education:
       Schnitt: 1.9
 
 experiences:
-  title: Experiences
+  title: Berufliche Erfahrung
   info:        
   - role: Lehrauftrag
-    time: 2026 - current
+    time: 2026 - aktuell
     company: HAW Hamburg
     details: |
-      - Abnahme des für die Praktika entwickelten Codes & Prüfung der Klausur Eignung
-      - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
-      - Korrektur des für die Praktika entwickelten Codes
-      - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
+      - Aufsicht und Betreuung in des Programmiertechnik Praktikum
+      - Abnahme und Bewertung der von Studierenden gelieferten Abgaben
+      - Fachlicher Austausch mit den Studierenden über alternative Ansätze
+
 
   - role: Lehrassistenz, Werksstudent
     time: 2025 - 2026
     company: HAW Hamburg
     details: |
-      - Abnahme des für die Praktika entwickelten Codes
-      - Vermitteln von Hintergrundinformationen, sowie vermitteln von praxisnahen Beispielen
-      - Korrektur des für die Praktika entwickelten Codes
-      - Vermitteln von weitergehenden Informationen zum Lehrstoff die für Designentscheidungen & Entwicklung von Code hilfreich sind.
+      - Aufsicht und Betreuung in der Programmiertechnik und Programmiermethokik 2 Praktika
+      - Abnahme und Bewertung der von Studierenden gelieferten Abgaben
+      - Fachlicher Austausch mit den Studierenden über alternative Ansätze
+
 
   - role: Entwicklung
-    time: 2024 - current
+    time: 2024 - aktuell
     company: Thies Mueller Service Solutions / RegattaTech.DE
     details: |
       - Entwickeln eines Systems zur Ergebniserfassung, Verarbeitung und Darstellung
@@ -158,64 +158,54 @@ projects:
         link: "https://jugendhackt.org"
         tagline: "Jugend hackt (2021 - current)"
 
-publications:
-    title: Publications
-    intro: |
-      Folgende Publikationen habe ich veröffentlicht
-     
-    papers:
-      - title: "Untersuchung der Auswirkung von Skalierung vor dem SoftMax-Layer auf die Robustheit eines Neuronalen Netzes"
-        link: "https://reposit.haw-hamburg.de/handle/20.500.12738/16136"
-        authors: Frej Pebble Schradick
-        conference: Bachelor Thesis
-
-
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Fähigkeiten
 
     toolset:
       - name: Quality Assurance
-
-      - name: Manuelles & automatisiertes Testen
+        details: |
+          - Test automatisierung
+          - Risk Analysis
+          - Adversery Testing
+          - Whitebox Testing & statische Code Analyse
+          - Blackbox Testing
+          - Accessibility Auditing
 
       - name: Data Analysis
+        details: |
+          - Data Visualisation
+          - Data Cleaning
+          - regression Modeling
 
       - name: Software Engineering
+        details: |
+          - Requirements Engineering
+          - git
+          - SCRUM
+      
+      - name: Programmiersprachen
+        details: |
+          - Python
+          - Java
+          - C
+          - C++
+          - SQL
+      
+      - name: Anwendungen
+        details: |
+          - inkscape
+          - Affinity Designer
+          - Adobe InDesign
+          - WAVE
+      
+      - name: Betriebssysteme
+        details: |
+          - Linux
+          - macOS
+          - Windows
 
-      - name: Requirements Engineering
 
-      - name: git
-
-      - name: macOS
-
-      - name: Linux
-
-      - name: Windows
-
-      - name: Python
-
-      - name: Java
-
-      - name: C
-
-      - name: C++
-
-      - name: SQL
-
-      - name: Risk Analysis
-
-      - name: inkscape
-
-      - name: Affinity Designer
-
-      - name: Accessible WebDesign
-
-      - name: Adversary Testing
-
-      - name: Whitebox Testing
-
-      - name: Statische Code Analyse
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
